@@ -6,7 +6,7 @@ end
 
 #
 def pick_number
-  
+  puts "guess a number between "
 end
 
 #
