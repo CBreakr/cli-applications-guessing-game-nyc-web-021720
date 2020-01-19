@@ -24,7 +24,13 @@ end
 
 #
 def evaluate_outcome(number, guess)
-  
+  if guess == "exit" then
+    say_goodbye
+  elsif guess.to_i == number then
+    user_success
+  else
+    user_failure(number)
+  end
 end
 
 #
@@ -35,4 +41,9 @@ end
 #
 def user_failure(number)
   
+end
+
+#
+def say_goodbye
+  puts ""
 end
