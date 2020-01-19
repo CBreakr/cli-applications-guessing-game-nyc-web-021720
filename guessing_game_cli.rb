@@ -1,7 +1,10 @@
 
 #
 def run_guessing_game
-  
+  number = pick_number
+  prompt_user
+  guess = get_user_input
+  evaluate_outcome(number, guess)
 end
 
 #
