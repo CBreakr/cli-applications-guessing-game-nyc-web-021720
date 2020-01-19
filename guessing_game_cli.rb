@@ -14,7 +14,7 @@ end
 
 #
 def prompt_user
-  puts "guess a number between 1 and 6"
+#  puts "guess a number between 1 and 6"
 end
 
 #
