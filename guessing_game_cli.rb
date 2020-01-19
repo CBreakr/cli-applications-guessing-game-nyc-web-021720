@@ -45,5 +45,5 @@ end
 
 #
 def say_goodbye
-  puts ""
+  puts "Goodbye!"
 end
