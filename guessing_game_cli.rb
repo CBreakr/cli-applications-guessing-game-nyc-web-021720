@@ -6,7 +6,7 @@ end
 
 #
 def pick_number
-  
+  (rand()*5).floor + 1
 end
 
 #
