@@ -35,7 +35,7 @@ end
 
 #
 def user_success
-  
+  puts "You guessed the correct number!"
 end
 
 #
