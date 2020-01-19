@@ -40,7 +40,7 @@ end
 
 #
 def user_failure(number)
-  
+  puts "Sorry! The computer guessed #{number}."
 end
 
 #
