@@ -9,7 +9,7 @@ end
 
 #
 def pick_number
-  rand(5) + 1
+  rand(1..6)
 end
 
 #
